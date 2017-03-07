@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dino</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="nombreUser">Nombre Usuario.</string>
+    <string name="contraseña">Ingrese una Clave</string>
+    <string name="passw">Contraseña</string>
+    <string name="login">Enviar</string>
+    <string name="no_tiene_cuenta">No tienes Cuenta?</string>
+    <string name="crea_aqui">|Crea una aquí.</string>
+    <string name="mail">Correo</string>
+    <string name="name">Nombre</string>
+    <string name="user">Usuario</string>
+    <string name="confirma">Confirme su Contraseña</string>
+    <string name="crear">Crear Cuenta</string>
+    <string name="crear_toolbar">Crear Cuenta</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arcos.dino.dino.view.CrearCuenta">
+
+    <include layout="@layout/actionbar_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditBlack"
+                android:layout_marginTop="@dimen/editText_crear_cuenta">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/mail"
+                    android:hint="@string/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditBlack"
+                android:layout_marginTop="@dimen/editText_crear_cuenta">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/name"
+                    android:hint="@string/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditBlack"
+                android:layout_marginTop="@dimen/editText_crear_cuenta">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/user"
+                    android:hint="@string/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditBlack"
+                android:layout_marginTop="@dimen/editText_crear_cuenta">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/passCrear"
+                    android:hint="@string/passw"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditBlack"
+                android:layout_marginTop="@dimen/editText_crear_cuenta">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/pass_confirm"
+                    android:hint="@string/confirma"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/button_crear_cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/crear"
+                android:theme="@style/temaBoton"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
