@@ -14,7 +14,7 @@ public class CrearCuenta extends AppCompatActivity {
         setContentView(R.layout.activity_crear_cuenta);
         verToolbar(getResources().getString(R.string.crear_toolbar),true);
     }
-//creamos metodo para el toolbar que nos permita reutilizarlo
+//creamos metodo para el toolbar que nos permita reutilizarlo 1
     public void verToolbar(String titlle,boolean botonRegreso ){
         Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
         //damos soporte a versiones anteriores a api19
