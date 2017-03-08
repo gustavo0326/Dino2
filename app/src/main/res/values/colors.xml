@@ -11,5 +11,6 @@
     <color name="editTextColorWhite">#FFFFFF</color>
     <color name="editTextColorBlack">#000</color>
     <color name="textColor_acent_login">#FFFFFF</color>
+    <color name="color_card">#53292929</color>
 
 </resources>

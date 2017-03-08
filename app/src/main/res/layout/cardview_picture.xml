@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tarjeta"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tarjeta"
+    cardview:cardElevation="@dimen/elevacion_tarjeta"
+    cardview:cardCornerRadius="@dimen/radio_tarjeta">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifanime"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/color_card"
+        android:onClick="cambiar">
+
+        <TextView
+            android:id="@+id/text_tarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mueve mi cabeza!!"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_card"
+            android:textColor="@android:color/white"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text2_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text2_card"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_card_sec"
+                android:layout_marginLeft="5dp"/>
+            <TextView
+                android:id="@+id/text3_card_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_card_sec"/>
+            <TextView
+                android:id="@+id/text4_card_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dias"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_card_sec"
+                android:layout_marginLeft="5dp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/tarjetaabajo">
+            <CheckBox
+                android:id="@+id/checkbox_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox_selector"/>
+            <TextView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="like"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_card_sec"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+</android.support.v7.widget.CardView>

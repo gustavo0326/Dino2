@@ -7,5 +7,11 @@
     <dimen name="activity_horizontal_login">32dp</dimen>
     <dimen name="no_cuenta">16sp</dimen>
     <dimen name="editText_crear_cuenta">10dp</dimen>
+    <dimen name="tarjeta">250dp</dimen>
+    <dimen name="elevacion_tarjeta">12dp</dimen>
+    <dimen name="radio_tarjeta">37dp</dimen>
+    <dimen name="text_card">25sp</dimen>
+    <dimen name="text_card_sec">15sp</dimen>
+    <dimen name="tarjetaabajo">10dp</dimen>
 
 </resources>
