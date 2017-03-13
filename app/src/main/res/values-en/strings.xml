@@ -14,4 +14,9 @@
     <string name="confirma">Confirme su clave</string>
     <string name="crear">Crear Cuenta</string>
     <string name="crear_toolbar">Create Account</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_friends">Friends</string>
+    <string name="tab_nearby">Nearby</string>
+    <string name="tab_home">Home</string>
 </resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/ic_action_action_search"
+        title="@string/tab_search"
+        barColorWhenSelected="@color/primary"/>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_action_action_star_rate"
+        title="@string/tab_favorites"
+        barColorWhenSelected="@color/primary"/>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_action_device_now_widgets"
+        title="@string/tab_home"
+        barColorWhenSelected="@color/primary"/>
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_action_action_room"
+        title="@string/tab_nearby"
+        barColorWhenSelected="@color/primary"/>
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_action_file_folder_shared"
+        title="@string/tab_friends"
+        barColorWhenSelected="@color/primary"/>
+
+</tabs>

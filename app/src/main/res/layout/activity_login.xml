@@ -74,7 +74,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
-                android:theme="@style/temaBoton"/>
+                android:theme="@style/temaBoton"
+                android:onClick="bottom"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/googleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/temaBoton">
+
+            </com.google.android.gms.common.SignInButton>
 
             <RelativeLayout
                 android:layout_width="match_parent"

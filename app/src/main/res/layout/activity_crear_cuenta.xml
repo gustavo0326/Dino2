@@ -101,5 +101,5 @@
 
 
     </ScrollView>
-
+    <include layout="@layout/bottombar"></include>
 </android.support.design.widget.CoordinatorLayout>

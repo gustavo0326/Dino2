@@ -13,5 +13,6 @@
     <dimen name="text_card">25sp</dimen>
     <dimen name="text_card_sec">15sp</dimen>
     <dimen name="tarjetaabajo">10dp</dimen>
+    <dimen name="bottombar_size">70dp</dimen>
 
 </resources>
