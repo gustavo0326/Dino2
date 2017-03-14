@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -39,6 +40,8 @@ public class AllGameActivity extends AppCompatActivity implements GoogleApiClien
         mail= (TextView) findViewById(R.id.mail);
         id= (TextView) findViewById(R.id.id);
         name= (TextView) findViewById(R.id.name);
+        verToolbar("Mas Movimientos",false);
+
 
         GoogleSignInOptions options=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -49,6 +52,16 @@ public class AllGameActivity extends AppCompatActivity implements GoogleApiClien
                 .enableAutoManage(this,this)
                 .addApi(Auth.GOOGLE_SIGN_IN_API,options)
                 .build();
+    }
+    //creamos metodo para el toolbar que nos permita reutilizarlo 1
+    public void verToolbar(String titlle,boolean botonRegreso ){
+        Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
+        //damos soporte a versiones anteriores a api19
+        setSupportActionBar(toolbar);
+        //para el titulo
+        getSupportActionBar().setTitle(titlle);
+        //para el boton de regreso
+        getSupportActionBar().setDisplayHomeAsUpEnabled(botonRegreso);
     }
 
     @Override

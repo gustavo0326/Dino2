@@ -37,6 +37,7 @@ private GoogleApiClient googleApiClient;
                 .addApi(Auth.GOOGLE_SIGN_IN_API,options)
                 .build();
         loginGoogleBtn =(SignInButton)findViewById(R.id.googleBtn);
+        loginGoogleBtn.setColorScheme(SignInButton.COLOR_DARK);
         loginGoogleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

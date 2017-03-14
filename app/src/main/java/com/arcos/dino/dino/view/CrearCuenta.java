@@ -12,7 +12,7 @@ public class CrearCuenta extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crear_cuenta);
-        verToolbar(getResources().getString(R.string.crear_toolbar),true);
+        verToolbar("Crear Cuenta",true);
     }
 //creamos metodo para el toolbar que nos permita reutilizarlo 1
     public void verToolbar(String titlle,boolean botonRegreso ){
@@ -23,8 +23,5 @@ public class CrearCuenta extends AppCompatActivity {
         getSupportActionBar().setTitle(titlle);
         //para el boton de regreso
         getSupportActionBar().setDisplayHomeAsUpEnabled(botonRegreso);
-
-
-
     }
 }
