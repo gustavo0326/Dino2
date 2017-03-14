@@ -81,7 +81,7 @@ ini.setResultCallback(new ResultCallback<GoogleSignInResult>() {
         }
 
     }
-
+//toma los datos del login
     private void resultadosLogin(GoogleSignInResult result) {
         if (result.isSuccess()){
             GoogleSignInAccount cuenta=result.getSignInAccount();
