@@ -22,7 +22,7 @@
 
 
 
-        <include layout="@layout/cardview_picture" />
+        <include layout="@layout/cardview_main" />
 
 
     <include layout="@layout/bottombar"></include>
